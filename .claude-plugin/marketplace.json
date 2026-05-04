@@ -1,0 +1,39 @@
+{
+  "name": "llm-forge",
+  "owner": {
+    "name": "Eric Zhang",
+    "url": "https://github.com/ericzhangzhw/llm-forge"
+  },
+  "plugins": [
+    {
+      "name": "atlassian-md-clip",
+      "source": {
+        "source": "git-subdir",
+        "url": "ericzhangzhw/llm-forge",
+        "path": "plugins/atlassian-md-clip"
+      },
+      "description": "Clip Jira tickets and Confluence wiki pages to local markdown files",
+      "version": "1.0.0",
+      "author": {
+        "name": "Eric Zhang"
+      },
+      "keywords": ["atlassian", "jira", "confluence", "markdown", "documentation"],
+      "license": "MIT"
+    },
+    {
+      "name": "llm-wiki",
+      "source": {
+        "source": "git-subdir",
+        "url": "ericzhangzhw/llm-forge",
+        "path": "plugins/llm-wiki"
+      },
+      "description": "LLM-maintained wiki — ingest sources, build cross-referenced knowledge pages, query and lint",
+      "version": "1.0.0",
+      "author": {
+        "name": "Eric Zhang"
+      },
+      "keywords": ["wiki", "knowledge-management", "documentation", "rag-alternative"],
+      "license": "MIT"
+    }
+  ]
+}

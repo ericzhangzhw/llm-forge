@@ -1,0 +1,21 @@
+# atlassian-md-clip
+plugins/atlassian-md-clip/node_modules/
+plugins/atlassian-md-clip/cookies.txt
+
+# llm-wiki: raw source documents (user project level, not in repo)
+plugins/llm-wiki/raw/
+
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.*
+
+.claude
