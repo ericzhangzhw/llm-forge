@@ -7,11 +7,7 @@
   "plugins": [
     {
       "name": "atlassian-md-clip",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/ericzhangzhw/llm-forge.git",
-        "path": "plugins/atlassian-md-clip"
-      },
+      "source": "./plugins/atlassian-md-clip",
       "description": "Clip Jira tickets and Confluence wiki pages to local markdown files",
       "version": "1.0.0",
       "author": {
@@ -22,11 +18,7 @@
     },
     {
       "name": "llm-wiki",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/ericzhangzhw/llm-forge.git",
-        "path": "plugins/llm-wiki"
-      },
+      "source": "./plugins/llm-wiki",
       "description": "LLM-maintained wiki — ingest sources, build cross-referenced knowledge pages, query and lint",
       "version": "1.0.0",
       "author": {
