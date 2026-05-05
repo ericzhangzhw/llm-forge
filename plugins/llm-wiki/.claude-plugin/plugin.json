@@ -1,0 +1,8 @@
+{
+  "name": "llm-wiki",
+  "version": "1.0.0",
+  "description": "LLM-maintained wiki — ingest sources, build cross-referenced knowledge pages, query and lint",
+  "author": {
+    "name": "Eric Zhang"
+  }
+}

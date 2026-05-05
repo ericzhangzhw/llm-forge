@@ -1,0 +1,8 @@
+{
+  "name": "atlassian-md-clip",
+  "version": "1.0.0",
+  "description": "Clip Jira tickets and Confluence wiki pages to local markdown files",
+  "author": {
+    "name": "Eric Zhang"
+  }
+}
